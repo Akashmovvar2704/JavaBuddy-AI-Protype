@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CodeMentor AI – Programming Assistant Prototype
 
-# Run and deploy your AI Studio app
+CodeMentor AI is an AI-powered programming assistant prototype built using Google AI Studio and the Gemini model.
 
-This contains everything you need to run your app locally.
+## Features
+- Debug Java and Python code
+- Convert Java code between Java and Python
+- Explain Data Structures and Algorithms concepts
+- Provide time and space complexity analysis
+- Compare programming approaches
 
-View your app in AI Studio: https://ai.studio/apps/8c9123ae-6556-4205-bc5a-2d0f5ccae119
+## Technologies Used
+- Google AI Studio
+- Gemini Model
+- Prompt Engineering
 
-## Run Locally
+## Test Cases
+The prototype was tested for:
+- Java debugging
+- Python debugging
+- Code conversion (Java ↔ Python)
+- DSA explanation
+- Time complexity explanation
+- Algorithm comparison
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Purpose
+This prototype demonstrates how AI can assist developers and students with debugging, understanding algorithms, and writing better code.
